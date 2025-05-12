@@ -17,13 +17,14 @@ body {
       padding: 20px;
     }
 
-    .main-image {
+   .main-image {
       width: 100%;
       max-width: 1500px;
       height: auto;
       display: block;
       margin: 0 auto;
     }
+
 
     .service-options {
       justify-content: space-around;
