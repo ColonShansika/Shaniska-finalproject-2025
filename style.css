@@ -26,11 +26,12 @@ body {
     }
 
 
-    .service-options {
+   .service-options {
+      display: flex;
       justify-content: space-around;
       gap: 20px;
       margin-top: 40px;
-      flex-wrap: wrap;
+      flex-wrap: wrap; /* Hace que las imágenes se ajusten en pantallas pequeñas */
     }
 
     .service-options img {
