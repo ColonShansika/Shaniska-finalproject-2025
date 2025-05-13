@@ -1,5 +1,5 @@
 body {
-      font-family: Arial, sans-serif;
+      font-family: Monospace, Monaco;
       margin: 0;
       padding: 0;
       background-color: #fff0f5;
@@ -9,6 +9,9 @@ h1 {
       font-size: 100px;
       color: #c73065;
 }
+
+contact {
+      
 
     h2 {
       font-size: 2rem;
@@ -34,7 +37,7 @@ h1 {
       justify-content: space-around;
       gap: 20px;
       margin-top: 40px;
-      flex-wrap: wrap; /* Hace que las imágenes se ajusten en pantallas pequeñas */
+      flex-wrap: wrap; 
     }
 
     .service-options img {
