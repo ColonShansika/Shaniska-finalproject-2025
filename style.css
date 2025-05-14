@@ -52,3 +52,12 @@ h1 {
   height: 100vh; 
   text-align: center;
 }
+
+form {
+  max-width: 500px;
+  width: 100%;
+  background-color: #ffe4e9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
