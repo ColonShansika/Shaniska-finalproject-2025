@@ -43,3 +43,12 @@ h1 {
 .toppic {
       text-align: center;
 }
+
+.center-form {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+  height: 100px; 
+  text-align: center;
+}
