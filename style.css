@@ -28,7 +28,7 @@ contact {
    .main-image {
       width: 50%;
       max-width: 1500px;
-      height: auto;
+      height: 50;
       display: block;
       margin: 0 auto;
     }
