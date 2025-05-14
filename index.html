@@ -6,44 +6,43 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <img src="logo.png" alt="Beauty Bar Logo" class="logo">
-      <h1>Beauty Bar</h1>
-      <p>Glow up starts here</p>
-    </header>
+  <header style="background: linear-gradient(to right, #ffc0cb, #ffe4e1); padding: 40px 20px; text-align: center;">
+    <img src="logo.png" alt="Beauty Bar Logo" style="height: 120px; display: block; margin: 0 auto;">
+    <h1 style="font-size: 3rem; margin: 10px 0 0; color: #d6336c; font-family: 'Georgia', serif;">Beauty Bar</h1>
+    <p style="color: #555; font-size: 1.2rem;">Glow up starts here</p>
+  </header>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="Nails.html">Nails</a>
-      <a href="makeup.html">Make Up</a>
-      <a href="hair.html">Hair</a>
-    </nav>
-
-    <main>
-      <img src="main-image.jpg" alt="Main Beauty Image" class="hero-image">
-
+  <nav style="background-color: #fff0f5; padding: 15px 0; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+    <a href="index.html" style="text-decoration: none; color: #d6336c; font-weight: bold; font-size: 1.1rem;">Home</a>
+    <a href="Nails.html" style="text-decoration: none; color: #d6336c; font-weight: bold; font-size: 1.1rem;">Nails</a>
+    <a href="makeup.html" style="text-decoration: none; color: #d6336c; font-weight: bold; font-size: 1.1rem;">Make Up</a>
+    <a href="hair.html" style="text-decoration: none; color: #d6336c; font-weight: bold; font-size: 1.1rem;">Hair</a>
+    
+  </nav>
       <section id="section1">
-        <h2>Welcome to Beauty Bar</h2>
-        <p>At Beauty Bar, we offer top-notch services to pamper you from head to toe. Click on any of the services above to learn more!</p>
-      </section>
+    <h2>Welcome to Beauty Bar</h2>
+    <p>At Beauty Bar, we offer top-notch services to pamper you from head to toe. Click on any of the services above to learn more!</p>
 
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Want to book an appointment or ask us something? Slide into our inbox!</p>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Want to book an appointment or ask us something? Slide into our inbox!</p>
+  
+  <form action="#" method="POST" style="max-width: 500px; margin-top: 20px;">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 8px 0;"><br>
 
-        <form action="#" method="POST">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; margin: 8px 0;"><br>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 10px; margin: 8px 0;"></textarea><br>
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+    <button type="submit" style="padding: 10px 20px; background-color: #d6336c; color: white; border: none; cursor: pointer;">
+      Send
+    </button>
+  </form>
+</section>
 
-          <button type="submit">Send</button>
-        </form>
-      </section>
-    </main>
+    
   </body>
 </html>
