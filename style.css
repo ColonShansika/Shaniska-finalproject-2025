@@ -4,15 +4,12 @@ body {
       padding: 0;
       background-color: #fff0f5;
       color: #333;
+      text-align: center;
     }
 h1 {
       font-size: 100px;
       color: #c73065;
 }
-
-#contact {
-text-align: center;
-}    
 
     h2 {
       font-size: 2rem;
