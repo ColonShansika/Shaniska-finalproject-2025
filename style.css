@@ -61,3 +61,26 @@ form {
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #b02457;
+}
