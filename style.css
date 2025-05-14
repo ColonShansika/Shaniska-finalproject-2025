@@ -12,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* Header estilo Barbie CEO */
 header {
   background: linear-gradient(to right, #ffc0cb, #ffe4e1);
   padding: 40px 20px;
@@ -37,7 +36,6 @@ header p {
   color: #555;
 }
 
-/* Navegación centrada y cute */
 nav {
   background-color: #fff0f5;
   padding: 15px 0;
@@ -55,7 +53,6 @@ nav a {
   font-size: 1.1rem;
 }
 
-/* Imagen hero en el centro */
 .hero-image {
   width: 80%;
   max-width: 800px;
@@ -65,7 +62,6 @@ nav a {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Secciones generales */
 section {
   max-width: 800px;
   margin: 0 auto 40px;
@@ -76,7 +72,6 @@ section h2 {
   margin-bottom: 10px;
 }
 
-/* Formulario chic */
 form {
   max-width: 500px;
   margin: 20px auto;
